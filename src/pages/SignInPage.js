@@ -83,7 +83,7 @@ const SignInPage = () => {
         </Field>
         <div className="have-account">
           You have not had an account?{" "}
-          <NavLink to={"/sign-up"}>Register an account</NavLink>{" "}
+          <NavLink to={"/auth/sign-up"}>Register an account</NavLink>{" "}
         </div>
         <Button
           onClick={handleLogin}

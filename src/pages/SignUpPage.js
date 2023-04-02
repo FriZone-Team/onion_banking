@@ -48,7 +48,8 @@ const SignUpPage = () => {
           <InputPasswordToggle></InputPasswordToggle>
         </Field>
         <div className="have-account">
-          You already have an account? <NavLink to={"/"}>Login</NavLink>{" "}
+          You already have an account?{" "}
+          <NavLink to={"/auth/sign-in"}>Login</NavLink>{" "}
         </div>
         <Button type="submit" className="w-full max-w-[300px] mx-auto">
           Sign Up

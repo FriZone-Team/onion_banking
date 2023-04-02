@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 export const NotFound = () => {
   const navigate = useNavigate();
 
-  useEffect(() => navigate("/home"), []);
+  useEffect(() => navigate("/card"), []);
 
   return <></>;
 };
